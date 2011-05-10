@@ -21,4 +21,10 @@ public interface Configuration
 
   Class<?> getType();
 
+  void addAttribute(ConfigurationAttribute attribute);
+
+  boolean hasTarget(Object target);
+
+  String getName();
+
 }
