@@ -30,9 +30,9 @@ public interface Configuration
 
   void register(ConfigurationAttribute attribute);
 
-	/**
-	 * Invoke any completeconfiguration hooks on the bean. default method so other implementations
-	 * won't fail.
-	 */
-	default void completeConfigure() {}
+  /**
+   * Invoke any completeconfiguration hooks on the bean. default method so other implementations
+   * won't fail.
+   */
+  default void completeConfigure() {}
 }
