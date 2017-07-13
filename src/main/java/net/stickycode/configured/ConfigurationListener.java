@@ -10,4 +10,5 @@ public interface ConfigurationListener {
 
   void postConfigure();
 
+  default void completeConfigure() {}
 }
