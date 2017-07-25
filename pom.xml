@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (c) 2011 RedEngine Ltd, http://www.redengine.co.nz. All rights reserved. -->
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <parent>
     <groupId>net.stickycode.parent</groupId>
     <artifactId>sticky-parent-jar8</artifactId>
@@ -11,7 +11,7 @@
 
   <groupId>net.stickycode.configured</groupId>
   <artifactId>sticky-configured-api</artifactId>
-  <version>5.4</version>
+  <version>5.5-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>sticky-configured-api-5</name>
@@ -21,7 +21,7 @@
 
   <scm>
     <developerConnection>${git.url}</developerConnection>
-    <tag>sticky-configured-api-5.4</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
