@@ -31,8 +31,11 @@ public interface Configuration
   void register(ConfigurationAttribute attribute);
 
   /**
-   * Invoke any completeconfiguration hooks on the bean. default method so other implementations
-   * won't fail.
+   * Invoke hooks for things that need to happen after all configuration is dealt with
    */
-  default void configurationComplete() {}
+  default void afterConfiguration() {}
+  /**
+   * Invoke hooks for things that need to happen before any configuration is dealt with
+   */
+  default void beforeConfiguration() {}
 }
