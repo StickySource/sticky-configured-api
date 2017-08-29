@@ -12,7 +12,7 @@
 
   <groupId>net.stickycode.configured</groupId>
   <artifactId>sticky-configured-api</artifactId>
-  <version>5.7-SNAPSHOT</version>
+  <version>5.7</version>
   <packaging>jar</packaging>
 
   <name>sticky-configured-api-5</name>
@@ -22,7 +22,7 @@
 
   <scm>
     <developerConnection>${git.url}</developerConnection>
-    <tag>HEAD</tag>
+    <tag>sticky-configured-api-5.7</tag>
   </scm>
 
   <properties>
